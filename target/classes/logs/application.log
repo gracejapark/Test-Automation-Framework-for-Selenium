@@ -388,3 +388,10 @@
 [DEBUG] 2019-05-13 00:05:47.918 [main] TestBase - Inside Login Test
 [DEBUG] 2019-05-13 00:05:48.270 [main] TestBase - Login successfully executed
 [DEBUG] 2019-05-13 00:06:50.389 [main] TestBase - Test execution completed !!!
+[DEBUG] 2019-05-13 00:08:31.166 [main] TestBase - Config file loaded
+[DEBUG] 2019-05-13 00:08:31.170 [main] TestBase - OR file loaded
+[DEBUG] 2019-05-13 00:08:33.922 [main] TestBase - chrome lauched!!!
+[DEBUG] 2019-05-13 00:08:35.637 [main] TestBase - Navigated to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+[DEBUG] 2019-05-13 00:08:40.154 [main] TestBase - Inside Login Test
+[DEBUG] 2019-05-13 00:08:40.500 [main] TestBase - Login successfully executed
+[DEBUG] 2019-05-13 00:09:03.723 [main] TestBase - Test execution completed !!!
