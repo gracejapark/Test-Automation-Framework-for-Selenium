@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 24.83 sec <<< FAILURE! - in TestSuite
+addCustomerTest(com.jungah.testautomation.selenium.datadirven.testcases.AddCustomerTest)  Time elapsed: 0.98 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By$ByCssSelector.<init>(By.java:422)
+	at org.openqa.selenium.By.cssSelector(By.java:116)
+	at com.jungah.testautomation.selenium.datadirven.base.TestBase.click(TestBase.java:116)
+	at com.jungah.testautomation.selenium.datadirven.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:23)
+
+addCustomerTest(com.jungah.testautomation.selenium.datadirven.testcases.AddCustomerTest)  Time elapsed: 0.52 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By$ByCssSelector.<init>(By.java:422)
+	at org.openqa.selenium.By.cssSelector(By.java:116)
+	at com.jungah.testautomation.selenium.datadirven.base.TestBase.click(TestBase.java:116)
+	at com.jungah.testautomation.selenium.datadirven.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:23)
+
+addCustomerTest(com.jungah.testautomation.selenium.datadirven.testcases.AddCustomerTest)  Time elapsed: 0.506 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By$ByCssSelector.<init>(By.java:422)
+	at org.openqa.selenium.By.cssSelector(By.java:116)
+	at com.jungah.testautomation.selenium.datadirven.base.TestBase.click(TestBase.java:116)
+	at com.jungah.testautomation.selenium.datadirven.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:23)
+
+addCustomerTest(com.jungah.testautomation.selenium.datadirven.testcases.AddCustomerTest)  Time elapsed: 0.531 sec  <<< FAILURE!
+java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By$ByCssSelector.<init>(By.java:422)
+	at org.openqa.selenium.By.cssSelector(By.java:116)
+	at com.jungah.testautomation.selenium.datadirven.base.TestBase.click(TestBase.java:116)
+	at com.jungah.testautomation.selenium.datadirven.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:23)
+
+openAccountTest(com.jungah.testautomation.selenium.datadirven.testcases.OpenAccountTest)  Time elapsed: 10.79 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: grace
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-UFGMCPV8', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.jungah.testautomation.selenium.datadirven.base.TestBase.select(TestBase.java:154)
+	at com.jungah.testautomation.selenium.datadirven.testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:22)
+
